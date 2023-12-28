@@ -1,0 +1,124 @@
+.body {
+    max-width: 100%;
+    background-color: white;
+  }
+  
+  .header {
+    background-color: black;
+    height: 100%;
+  }
+  
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .navbar-brand img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .navbar .nav-item {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+  }
+  
+  .footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 11px;
+  }
+  
+  .footer p {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .footer_socials {
+    margin: 11px;
+    padding: 15px;
+    width: 20px;
+    height: 100%;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .container .title {
+    padding: 30px;
+    text-align: center;
+    color: black;
+  }
+  .container .section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px 0px;
+    gap: 10px;
+  }
+  .container .section .contact {
+    display: flex;
+    padding: 20px;
+  }
+  .container .section .nav-item {
+    width: 100%;
+    border-radius: 10%;
+    border: 2px solid black;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container .section .col-md-9 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .container .card-text {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 990px) {
+    .container .title {
+      padding: 15px;
+      text-align: center;
+    }
+    .container .cod-md-8 {
+      font-size: large;
+    }
+    .container .cod-md-8 p {
+      font-size: small;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .navbar .navbar-brand img {
+      width: 150px;
+      height: 150px;
+      padding: 15px;
+      border-radius: 90%;
+      -o-object-fit: cover;
+         object-fit: cover;
+      justify-content: center;
+    }
+    .navbar .nav-item {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+      font-family: "Open Sans", sans-serif;
+      margin: 10px;
+      padding: 15px;
+    }
+  }/*# sourceMappingURL=style.css.map */
